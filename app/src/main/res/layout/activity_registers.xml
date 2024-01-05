@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgijo2"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".SplashScreenActivity">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgijo2"
+    android:orientation="vertical"
+    tools:context=".SplashScreenActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/poppinsextra"
+        android:gravity="center"
+        android:text="Daftar Akun !"
+        android:textColor="@color/Hijau"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsregular"
+        android:gravity="center"
+        android:text="Silahkan masukkan data pengguna"
+        android:textColor="@color/Hijau"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/signup_email"
+            android:background="@drawable/lavender_border"
+            android:layout_marginTop="40dp"
+            android:padding="8dp"
+            android:hint="Email"
+            android:drawablePadding="8dp"
+            android:textColor="@color/Hijau"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/signup_username"
+            android:background="@drawable/lavender_border"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:hint="Username"
+            android:drawablePadding="8dp"
+            android:textColor="@color/Hijau"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/signup_pass"
+            android:background="@drawable/lavender_border"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:hint="Password"
+            android:drawablePadding="8dp"
+            android:textColor="@color/Hijau"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/signup_konfirpass"
+            android:background="@drawable/lavender_border"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:hint="Konfirmasi Password"
+            android:drawablePadding="8dp"
+            android:textColor="@color/Hijau"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Masuk"
+            android:backgroundTint="@color/Hijau"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinssemibold"/>
+
+
+        <!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/button_shape"-->
+<!--            android:backgroundTint="@color/Hijau"-->
+<!--            android:fontFamily="@font/poppinssemibold"-->
+<!--            android:text="Masuk" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="341dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@drawable/garis"-->
+<!--            android:layout_marginTop="10dp"/>-->
+
+<!--        <ImageButton-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/ggl"-->
+<!--            />-->
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah Memiliki Akun?"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_btn"
+            android:layout_weight="1"
+            android:text=" Masuk"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinssemibold"/>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

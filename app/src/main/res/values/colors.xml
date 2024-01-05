@@ -2,6 +2,19 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="colorPrimary">#BBAB8C</color>
-    <color name="colorAccent">#FDF7E4</color>
+    <color name="Hijau">#1AA260</color>
+    <color name="colorPrimary">#001342</color>
+    <color name="colorAccent">#001342</color>
+
+    <color name="colorPrimaryDark">#001342</color>
+
+    <color name="colorPrimarySoft">#204DBE</color>
+
+    <color name="orange">#FF9800</color>
+    <color name="dark">#121931</color>
+    <color name="biru">#0099FF</color>
+
+    <color name="menungu">#FF9800</color>
+    <color name="selesai">#4CAF50</color>
+    <color name="batal">#E91E1E</color>
 </resources>
